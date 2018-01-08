@@ -1,10 +1,10 @@
-var lowPulse=function(){
+var lowPulse=function(x,y,charWidth,charHeight){
 line(x,y,x,y+charHeight);
 line(x,y+charHeight,x-charWidth,y+charHeight);
 line(x-charWidth,y+charHeight,x-charWidth,y+charHeight-((1/2)*charHeight));
 line(x-charWidth,y+charHeight-((1/2)*charHeight,x-(charWidth/6),(y+charHeight-((1/2)*charHeight)));
 };
-var highPulse=function(){
+var highPulse=function(x,y,charWidth,charHeight){
 line(x,y,x,y+charHeight);
 line(x,y+charHeight,x-charWidth,y+charHeight);
 line(x-charWidth,y+charHeight,x-charWidth,y+charHeight-((1/2)*charHeight));
